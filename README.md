@@ -55,18 +55,24 @@ Schedule (定时任务)
 Logging (日志记录)
 
 配置说明
+
 钉钉API配置 (excel_get.py):
+
 APP_KEY: 钉钉应用的App Key
 APP_SECRET: 钉钉应用的App Secret
 SPACE_ID: 钉盘空间ID
 DENTRY_ID: 文件ID
 UNION_ID: 用户unionId
+
 海关API配置 (BL.py):
+
 API_URL: 获取BL号码列表的API地址
 通知配置 (bl_notification.py):
 MONITOR_API_URL: 监控系统的API地址
 AT_MOBILES: 需要@的手机号列表
+
 使用说明
+
 确保已安装所有依赖库
 配置钉钉API参数和海关API参数
 将钉钉中的Excel文件设置为共享访问
